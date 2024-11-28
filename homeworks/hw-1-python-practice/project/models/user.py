@@ -10,16 +10,21 @@ class User:
         self.is_banned = False
 
     def edit_name(self, new_name):
-        pass
+        self.name = new_name
 
     def increment_rate(self):
-        pass
+        self.rate += 1
 
     def ban_user(self):
-        pass
+        self.is_banned = True
 
     def unban_user(self):
-        pass
+        self.is_banned = False
 
     def __repr__(self):
-        pass
+        return (
+            f"Comment(name={self.name!r}, id={self.id!r}, "
+            f"comments_count={self.comments_count!r}, "
+            f"rate={self.rate!r}, "
+            f"is_banned={self.is_banned!r}, "
+        )
