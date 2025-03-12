@@ -1,0 +1,80 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Database migrations
+myproject/blog/migrations/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local dev tools
+.env.local
+.env.development
+.env.production
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Celery
+celerybeat-schedule.*
+celerybeat.pid
+
+# Flower
+flower_port
+
+# Node.js (если используете webpack и т.п.)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Webpack (если используется)
+webpack-bundle-tracker.json
+static/dist/
+
+# Pyenv
+.python-version
