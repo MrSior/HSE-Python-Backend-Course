@@ -14,6 +14,7 @@ services:
     image: postgres:13
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./storage:/storage
     environment:
       POSTGRES_DB: mydb
       POSTGRES_USER: user
